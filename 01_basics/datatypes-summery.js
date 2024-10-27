@@ -39,3 +39,29 @@ const myfunction = function(){
 console.log(typeof heros);
 
 /* https://262.ecma-international.org/5.1/#sec-11.4.3*/
+
+
+//++++++++++++++++++++++++++++++++++++++
+//Memory type
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myfullname = "Om Prajapati"
+
+let unothername = myfullname
+unothername = "omoza"
+
+console.log(myfullname);
+console.log(unothername);
+
+let userone = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "om@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
