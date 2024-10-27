@@ -71,3 +71,5 @@ let gameCounter = 100
 // gameCounter++;
 ++gameCounter;
 console.log(gameCounter);
+
+/*https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment*/
