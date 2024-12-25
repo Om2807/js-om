@@ -56,4 +56,4 @@ function addone(num){
 const addtwo = function(num){
     return num + 2
 }
-addtwo(5) 
+addtwo(5)  
