@@ -1,0 +1,75 @@
+   javaScript Execution Content
+
+java script is a single threded language
+
+{}-> global Execution
+-> global execution context
+-> function execetion context
+-> Eval Execution context
+
+[{}]=> 2 phases devided
+-> memory creation phase(creation phase)
+->execetion phase
+
+//to understand put code file:
+
+" let val1 = 10
+let val2 = 5
+function addnum(num1, num2){
+    let total = num1 + num2
+    return total
+}
+let result1 = addnum(val1, val2)
+let result2 = addnum(10, 2) "
+
+//steps for execetion of this code file
+
+step 1 -> global execution(allocated in "this")
+step 2 -> memory phase(collect all variables ,and put them   
+ {
+    val1 -> undefined
+    val2 -> undefined
+    addnum -> definition of whole function
+    result1 -> undefined
+    result2 -> undefined
+ })
+ step 3 -> execetion phase
+ {
+ val1 <- 10
+ val2 <- 5
+ addnum ->[{new variable environment + execetion thred}]
+ result1 = 15
+ result2 = (same story as addnum fuction repeatedly)
+ }
+
+ //jintni bar function execeut hog utni bar apne ko memory phase or execution phase use karna he.......
+
+ memory phase for "addnum":->
+ val1 ->undefined
+ val2 ->undefined
+ total ->undefined
+
+ //now go execetion context
+ num1 -> 10
+ num2 -> 5
+ total -> 15
+
+ //total value is returned in global execetion context me
+
+
+ //execution context kaam khatam hone ke baad delete bhi ho jata he
+
+
+
+///////////+call Stacks+////////
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|              |
+|Global Executi|
+
+let's you have method like"one()" so when you execeut it 
+then first you put in stack   than it will executed,, after execetion it will removed from stack..
