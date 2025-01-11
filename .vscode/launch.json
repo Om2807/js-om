@@ -2,6 +2,13 @@
     "liveServer.settings.port": 5501,
     "editor.acceptSuggestionOnEnter": "on",
     "configurations": [
-    
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+       
     ]
 }
