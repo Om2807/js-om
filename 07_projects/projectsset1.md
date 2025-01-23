@@ -1,7 +1,7 @@
 # Projects related to DOM
 
 ## project link
-[click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
+[click here](https://github.com/Om2807/js-om/blob/main/07_projects/projectsset1.md)
 
 # solution code
 
