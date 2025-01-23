@@ -1,7 +1,7 @@
 # Projects related to DOM
 
 ## project link
-[click here](https://github.com/Om2807/js-om/blob/main/07_projects/projectsset1.md)
+[click here](https://github.com/Om2807/js-om/tree/main/07_projects)
 
 # solution code
 
